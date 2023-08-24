@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #d7ebf7;
+    --text-color: #504a4a;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.insta {
+    color: #ea427f;
+  }
+  .whts {
+    color: #31f59d;
+  }
+  .snap {
+    color: #f8d849;
+  }
+  .map {
+    color: #2c4ef5;
+  }
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+p{
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+h4{
+    font-weight: 700;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+section{
+    padding: 8rem 2rem;
+}
+@media (max-width:567px){
+    html{
+        font-size: 14px;
+    }
+}
+/* start contact-us section----------------------------------------------------- */
+
+.contact {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.contact .logo{
+    margin-bottom: 1rem;
+}
+
+.contact .logo img{
+    width: 14rem ;
+}
+.contact .title{
+    margin-bottom: 1rem;
+}
+.contact .row{
+    padding-top: 1rem !important;
+}
+.contact .contact-link{
+  width: 80% !important;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+.contact  .link-cont{
+    background-color: #fff !important;
+    
+ 
+   
+}
+
+.contact  .col-lg-5{
+    margin-bottom: 1rem !important;
+}
+
+.insta {
+    color: #ea427f;
+  }
+  .whts {
+    color: #31f59d;
+  }
+  .snap {
+    color: #f8d849;
+  }
+  .map {
+    color: #2c4ef5;
+  }
+.contact .link-cont img{
+    width: 3rem;
+}
+.contact i{
+    font-size: 2.5rem;
+}
+/* start footer section--------------------- */
+footer{
+    padding:  2rem;
+}
+footer .footer-logo img{
+   width: 10%;
+}
+
+@media(max-width:900px){
+    footer .footer-logo img{
+        width: 10%;
+     }
+}
+@media(max-width:1350px){
+    footer .footer-logo img{
+        width: 20%;
+     }
+}
+
+
+
+
+
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.animated-button {
+    animation: buttonAnimation 0.5s ease;
+}
+
+
+@keyframes logoAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animated-logo {
+    animation: logoAnimation 2s infinite;
+  }
+
+
+
+  @keyframes slide-in {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animation {
+    animation: slide-in 1s ease-out forwards;
+}
+
+
+
+
+
+
+
+
+body {
+    background: linear-gradient(-45deg, #dcd4d4, #2a282895, #fbfafa, #746666df);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  @media(max-width:992px){
+    .contact .logo img{
+        width: 7rem;
+    }
+}
